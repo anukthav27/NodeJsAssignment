@@ -1,8 +1,6 @@
 const promiseMessage = () => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      resolve('Hello this is Node JS.');
-    }, 1000);
+    resolve('Hello this is Node JS.');
   });
 };
 
